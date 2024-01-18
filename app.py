@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import altair as alt
+#import altair as alt
 #from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from PIL import Image
+#from PIL import Image
 import base64
 import os
 #from nlp_cleaning import *
