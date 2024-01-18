@@ -84,7 +84,7 @@ def df_showing(df):
     df_show.index += 1
     return df_show
 df_show = df_showing(df_filtrado)
-df_show_2= df_show[['Título','Diario', 'Etiqueta']]
+df_show_2= df_show[['Título','Diario']]
 st.subheader('Artículos scrapeados de Diarios de "El Salvador"')
 st.dataframe(df_show_2)
 
